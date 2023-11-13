@@ -1,515 +1,513 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,700;1,8..144,500&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,700;1,8..144,500&family=Roboto:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #252525;
-    width: 100%;
-    height: 12vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #252525;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header section {
-    width: 70%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    /* border: solid white; */
+  width: 70%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: solid white; */
 }
 
 .Fantastika {
-    height: 8vh;
-    /* border: solid white; */
+  height: 8vh;
+  /* border: solid white; */
 }
 
 header nav {
-    width: 12%;
-    height: 70%;
-    /* border: solid white; */
+  width: 12%;
+  height: 70%;
+  /* border: solid white; */
 }
 
 .headerNavList ul {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* border: solid red; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: solid red; */
 }
 
 .headerUlList * {
-    height: 4vh;
-    /* border: solid white; */
+  height: 4vh;
+  /* border: solid white; */
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .welcomeContainer {
-    background-image: url(./imagens/Grupo\ 486.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 150vh;
-    /* border: solid gray; */
+  background-image: url(./imagens/Grupo\ 486.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 150vh;
+  /* border: solid gray; */
 }
 
 .welcomeBox {
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    /* border: solid black; */
+  height: 105vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: solid black; */
 }
 
 h1 {
-    font-family: 'Roboto Serif', serif;
-    font-weight: bold;
-    font-size: 3rem;
-    text-align: center;
-    color: #ffffff;
-    width: 35%;
-    margin-top: 3rem;
-    /* border: solid black; */
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+  width: 35%;
+  height: 25vh;
+  /* border: solid black; */
 }
 
 .logoFantastika {
-    height: 20vh;
-    /* border: solid black; */
+  height: 20vh;
+  /* border: solid black; */
 }
 
 .serviceContainer {
-    background-image: url(./imagens/Interseção\ 16.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: 180vh;
+  background-image: url(./imagens/Interseção\ 16.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180vh;
 }
 
 .serviceBox {
-    height: 140vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: column;
-    /* border: solid black; */
+  height: 75vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  /* border: solid black; */
 }
 
 .titleBlack {
-    font-family: 'Roboto Serif', serif;
-    font-weight: bold;
-    font-size: 4rem;
-    color: #3A342F;
-    margin-top: 15rem;
-    margin-left: 4rem;
-    width: 45%;
-    /* border: solid black; */
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #3a342f;
+  width: 50%;
+  /* border: solid black; */
 }
 
 .paragraphBlack {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #3A342F;
-    margin-left: 4rem;
-    width: 35%;
-    line-height: 3rem;
-    /* border: solid black; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #3a342f;
+  width: 40%;
+  line-height: 3rem;
+  /* border: solid black; */
 }
 
 .buttonBlack {
-    background-color: #3A342F;
-    height: 13vh;
-    width: 20vw;
-    border-radius: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #ffffff;
-    margin-top: 2.5rem;
-    margin-left: 4rem;
-    border: solid #3A342F;
+  background-color: #3a342f;
+  height: 13vh;
+  width: 20vw;
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  border: solid #3a342f;
 }
 
 .aboutContainer {
-    background-image: url(./imagens/Grupo\ 480.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: 180vh;
+  background-image: url(./imagens/Grupo\ 480.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 180vh;
 }
 
 .aboutBox {
-    height: 140vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    flex-direction: column;
-    /* border: solid black; */
+  height: 95vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  /* border: solid black; */
 }
 
 .titleWhite {
-    font-family: 'Roboto Serif', serif;
-    font-weight: bold;
-    font-size: 4rem;
-    color: #ffffff;
-    margin-top: 15rem;
-    margin-right: 10rem;
-    width: 35%;
-    /* border: solid black; */
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #ffffff;
+  width: 60%;
+  /* border: solid black; */
 }
 
 .paragraphWhite {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #ffffff;
-    margin-right: 10rem;
-    width: 35%;
-    line-height: 3rem;
-    /* border: solid black; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  width: 65%;
+  line-height: 3rem;
+  /* border: solid black; */
 }
 
 .buttonWhite {
-    background-color: #ffffff;
-    height: 13vh;
-    width: 20vw;
-    border-radius: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #000000;
-    margin-top: 2.5rem;
-    margin-right: 22rem;
-    border: solid #ffffff;
+  background-color: #ffffff;
+  height: 13vh;
+  width: 20vw;
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  border: solid #ffffff;
 }
 
-
 .sponsorshipContainer {
-    background-color: #ffffff;
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: solid blue; */
+  background-color: #ffffff;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid blue; */
 }
 
 .sponsorshipBox {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 60%;
-    /* border: solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  /* border: solid green; */
 }
 
 .titleSponsorship {
-    font-family: 'Roboto Serif', serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 20px;
-    width: 10%;
-    text-align: center;
-    color: #FD6A9A;
-    /* border: solid black; */
+  font-family: "Roboto Serif", serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  width: 10%;
+  text-align: center;
+  color: #fd6a9a;
+  /* border: solid black; */
 }
 
 .logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  /* border: solid red; */
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  height: 60vh;
+  width: 100%;
+  background-color: #eb4a7b;
+  /* border: solid black; */
+}
+
+.footerLogo {
+  display: none;
+}
+
+.footerNav {
+  display: none;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65%;
+  height: 60vh;
+  /* border: solid black; */
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 20%;
+  height: 30vh;
+  /* border: solid white; */
+}
+
+footer h3 {
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.footerNavList {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 2rem;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 201px) and (max-width: 500px) {
+  header {
+    position: fixed;
+    /* border: solid white; */
+  }
+
+  header section {
+    width: 50%;
+    height: 100%;
+    /* border: solid white; */
+  }
+
+  .Fantastika {
+    height: 7vh;
+    /* border: solid white; */
+  }
+
+  .headerNavList ul {
+    justify-content: center;
+    /* border: solid red; */
+  }
+
+  .headerUlList * {
+    height: 5vh;
+    /* border: solid white; */
+  }
+
+  .logoInstagram {
+    display: none;
+  }
+
+  .logoYoutube {
+    display: none;
+  }
+
+  .welcomeContainer {
+    background-image: url(./imagens/Grupo\ 485-1.png);
+    height: 120vh;
+  }
+
+  .welcomeBox {
+    height: 70vh;
+    /* border: solid black; */
+  }
+
+  h1 {
+    width: 80%;
+    height: 15vh;
+    font-size: 2rem;
+    /* border: solid black; */
+  }
+
+  .logoFantastika {
+    height: 15vh;
+    /* border: solid black; */
+  }
+
+  .serviceContainer {
+    background-image: url(./imagens/Grupo\ 484-1.png);
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .serviceBox {
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    /* border: solid black; */
+  }
+
+  .titleBlack {
+    font-size: 1.5rem;
+    width: 70%;
+    /* border: solid black; */
+  }
+
+  .paragraphBlack {
+    font-size: 15px;
+    width: 70%;
+    line-height: 1.5rem;
+    /* border: solid black; */
+  }
+
+  .buttonBlack {
+    height: 7vh;
+    width: 45vw;
+    font-size: 20px;
+    border-radius: 40px;
+  }
+
+  .aboutContainer {
+    background-image: url(./imagens/Grupo\ 496.png);
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .aboutBox {
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 5rem;
+    /* border: solid black; */
+  }
+
+  .titleWhite {
+    font-size: 1.5rem;
+    width: 65%;
+    /* border: solid black; */
+  }
+
+  .paragraphWhite {
+    font-size: 15px;
+    width: 75%;
+    line-height: 1.5rem;
+    /* border: solid black; */
+  }
+
+  .buttonWhite {
+    height: 7vh;
+    width: 45vw;
+    font-size: 20px;
+    border-radius: 40px;
+  }
+
+  .sponsorshipContainer {
+    flex-direction: column;
+    height: 15vh;
+  }
+
+  .titleSponsorship {
+    font-size: 15px;
+    width: 20%;
+    /* border: solid black; */
+  }
+
+  .sponsorshipBox {
+    width: 100%;
+    height: 30%;
+    /* border: solid green; */
+  }
+
+  .logo * {
+    height: 100%;
+    /* border: solid red; */
+  }
+
+  footer {
+    height: 120vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: solid black; */
+  }
+
+  .footerLogo {
+    display: initial;
+    width: 50%;
+    height: 10vh;
+    margin-top: 1rem;
+    /* border: solid white; */
+  }
+
+  .footerFantastika {
+    width: 100%;
+    /* border: solid black; */
+  }
+
+  .footerNav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: 10vh;
     /* border: solid red; */
-}
+  }
 
+  .footerListLogos * {
+    display: initial;
+    height: 4vh;
+    /* border: solid blue; */
+  }
 
-li {
-    list-style: none;
-}
-
-footer {
-    height: 60vh;
-    width: 100%;
+  .footerListLogos {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #EB4A7B;
-    /* border: solid black; */
-}
+    width: 50%;
+  }
 
-.footerLogo {
-    display: none;
-}
-
-.footerNav {
-    display: none;
-}
-
-.footerList {
-    display: flex;
+  footer section {
     flex-direction: column;
+    height: 80vh;
+    /* border: solid black; */
+  }
+
+  .footerList {
     justify-content: center;
-    align-items: flex-start;
-    width: 13%;
-    height: 40vh;
-    margin-left: 6rem;
+    align-items: center;
+    width: 70%;
+    height: 25vh;
     /* border: solid white; */
-}
+  }
 
-footer h3 {
-    font-family: 'Roboto Serif', serif;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 2rem;
-    color: #ffffff;
-}
+  footer h3 {
+    font-size: 20px;
+    text-align: center;
+  }
 
-.footerNavList {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 2rem;
-    color: #ffffff;
-}
-
-@media screen and (min-width: 201px) and (max-width:500px) {    
-    header {
-        position: fixed;
-        /* border: solid white; */
-    }
-
-    header section {
-        width: 50%;
-        height: 100%;
-        /* border: solid white; */
-      }
-
-    .Fantastika {
-        height: 7vh;
-        /* border: solid white; */
-    }
-
-    .headerNavList ul {
-        justify-content: center;
-        /* border: solid red; */
-    }
-      
-    .headerUlList * {
-        height: 5vh;
-        /* border: solid white; */
-    }
-
-    .logoInstagram {
-        display: none;
-    }
-
-    .logoYoutube {
-        display: none;
-    }
-    
-    .welcomeContainer {
-        background-image: url(./imagens/Grupo\ 485-1.png);
-        height: 120vh;
-    }
-
-    .welcomeBox {
-        height: 55vh;
-        /* border: solid black; */
-      }
-
-    h1 {
-        width: 80%;
-        margin-top: 6rem;
-        font-size: 2rem;
-        /* border: solid black; */
-    }
-
-    .logoFantastika {
-        height: 15vh;
-        /* border: solid black; */
-    }
-
-    .serviceContainer {
-        background-image: url(./imagens/Grupo\ 484-1.png);
-        height: 120vh;
-    }
-
-    .serviceBox {
-        height: 50vh;
-        /* border: solid black; */
-    }
-
-    .titleBlack {
-        font-size: 1.5rem;
-        width: 70%;
-        margin-top: 6rem;
-        margin-left: 2rem;
-        /* border: solid black; */
-    }
-
-    .paragraphBlack {
-        font-size: 15px;
-        width: 65%;
-        line-height: 1.5rem;
-        margin-left: 2rem;
-        /* border: solid black; */
-    }
-
-    .buttonBlack {
-        height: 7vh;
-        width: 45vw;
-        font-size: 20px;
-        border-radius: 40px;
-        margin-left: 2rem;
-        margin-top: 1.5rem;
-    }
-
-    .aboutContainer {
-        background-image: url(./imagens/Grupo\ 496.png);
-        height: 120vh;
-    }
-
-    .aboutBox {
-        height: 50vh;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        /* border: solid black; */
-    }
-
-    .titleWhite {
-        font-size: 1.5rem;
-        width: 75%;
-        margin-top: 6rem;
-        margin-left: 2rem;
-        /* border: solid black; */
-    }
-
-    .paragraphWhite {
-        font-size: 15px;
-        width: 65%;
-        line-height: 1.5rem;
-        margin-left: 2rem;
-        /* border: solid black; */
-    }
-
-    .buttonWhite {
-        height: 7vh;
-        width: 45vw;
-        font-size: 20px;
-        border-radius: 40px;
-        margin-left: 2rem;
-        margin-top: 1.5rem;
-    }
-
-
-    .sponsorshipContainer {
-        flex-direction: column;
-    }
-
-    .titleSponsorship {
-        font-size: 15px;
-        width: 20%;
-        /* border: solid black; */
-    }
-
-    .sponsorshipBox {
-        width: 100%;
-        height: 40%;
-        /* border: solid green; */
-    }
-
-    .logo * {
-        height: 80%;
-        /* border: solid red; */
-    }
-
-    footer {
-        height: 120vh;
-        flex-direction: column;
-        /* border: solid black; */
-    }
-
-    .footerLogo {
-        width: 45%;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-        /* border: solid white; */
-    }
-
-    .footerFantastika {
-        height: 80%;
-        /* border: solid black; */
-    }
-
-    .footerNav {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100%;
-        height: 10vh;
-        /* border: solid red; */
-    }
-
-    .footerListLogos * {
-        display: initial;
-        height: 4vh;
-        /* border: solid blue; */
-    }
-
-    .footerListLogos {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 50%;
-    }
-
-    .footerList {
-        justify-content: flex-start;
-        align-items: center;
-        width: 100%;
-        height: 25vh;
-        margin-top: 1rem;
-        margin-left: 0;
-        /* border: solid white; */
-    }
-
-    footer h3 {
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    .footerNavList {
-        font-size: 20px;
-        text-align: center;
-    }
+  .footerNavList {
+    font-size: 20px;
+    text-align: center;
+  }
 }
